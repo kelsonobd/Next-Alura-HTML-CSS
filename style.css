@@ -1,20 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color: white;
 }
+.cabecalho{
+    padding: 2% 0% 0% 15% ;
+}
+.menu{
+    display:flex;
+    gap: 80px;
+}
+.menuItem {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color:#ED7C07;
+}
 
 .container {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,7 +35,7 @@ body {
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap:40px;
+    gap: 40px;
 }
 
 .titulo {
@@ -41,22 +52,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.links{
+.links {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
 }
-.tituloLinks{
+
+.tituloLinks {
     font-family: 'Krona One', sans-serif;
     font-size: 24px;
     font-weight: 400;
 }
-.link{
+
+.link {
     display: flex;
     justify-content: center;
-    gap:16px;
+    gap: 16px;
     border: 2px solid #ED7C07;
     width: 378px;
     text-align: center;
@@ -70,6 +83,16 @@ body {
 
 }
 
-.link:hover{
-    background-color:#272727 ;
+.link:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    color: black;
+    background-color: #ED7C07;
+    text-align: center;
+    font-family: 'Monteserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
 }
