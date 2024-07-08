@@ -56,13 +56,14 @@ body {
     font-weight: 400;
 }
 .link{
+    border: 2px solid #ED7C07;
     width: 280px;
     text-align: center;
     border-radius: 16px;
     font-size: 24px;
     padding: 21.5px 0px;
     text-decoration: none;
-    color:black;
+    color: #F6F6F6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 
