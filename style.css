@@ -17,7 +17,7 @@ body {
     margin: 10% 15%;
     display: flex;
     align-items: center;
-    justify-content: ;
+    justify-content: space-between;
 }
 
 .conteudoPrincipal {
@@ -25,8 +25,6 @@ body {
     display: flex;
     flex-direction: column;
     gap:40px;
-
-
 }
 
 .titulo {
@@ -56,10 +54,13 @@ body {
     font-weight: 400;
 }
 .link{
+    display: flex;
+    justify-content: center;
+    gap:16px;
     border: 2px solid #ED7C07;
-    width: 280px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     padding: 21.5px 0px;
     text-decoration: none;
@@ -67,4 +68,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 
+}
+
+.link:hover{
+    background-color:#272727 ;
 }
